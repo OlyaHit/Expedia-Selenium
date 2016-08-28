@@ -14,7 +14,7 @@ import static Expedia.MavenExpedia.WebLibrary.*;
 
 import java.util.Set;
 
-public class DealsPageSearchTrip {
+public class DealsPageSearchTripTest {
 	
 	static WebDriver driver; 
 	static ChromeOptions options;
