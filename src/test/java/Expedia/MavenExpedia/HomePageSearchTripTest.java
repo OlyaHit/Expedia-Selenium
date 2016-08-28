@@ -13,7 +13,7 @@ import Expedia.MavenExpedia.TripSearchResultsPage;
 
 
 
-public class HomePageSearchTrip {
+public class HomePageSearchTripTest {
 
 public static WebDriver driver;
 static ChromeOptions options;
