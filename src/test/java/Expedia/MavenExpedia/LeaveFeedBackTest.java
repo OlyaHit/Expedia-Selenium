@@ -4,7 +4,7 @@ import org.junit.*;
 import static Expedia.MavenExpedia.WebLibrary.*;
 import java.util.Set;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.junit.Assert;
 
 import Expedia.MavenExpedia.FeedbackPage;
@@ -18,7 +18,7 @@ public class LeaveFeedBackTest {
 	
 	@BeforeClass
 	public static void beforeClass(){
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		setUpDriver(driver,25);
 	}
 
