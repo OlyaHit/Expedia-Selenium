@@ -10,7 +10,7 @@ import org.junit.Assert;
 import Expedia.MavenExpedia.FeedbackPage;
 import Expedia.MavenExpedia.BasePage;
 
-public class LeaveFeedBack {
+public class LeaveFeedBackTest {
 	
 	static WebDriver driver;
 	BasePage basepage;
