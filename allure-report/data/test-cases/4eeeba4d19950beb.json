@@ -1,0 +1,270 @@
+{
+  "uid" : "4eeeba4d19950beb",
+  "name" : "Verification of Mortgage Weekly payments calculation",
+  "fullName" : "allTests.MortgagePaymentCalculation.verifyMortgageWeeklyPaymentsCalculation",
+  "historyId" : "ed61521d0d3518fbce57381c4e8140f6",
+  "time" : {
+    "start" : 1498079928062,
+    "stop" : 1498079943139,
+    "duration" : 15077
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Weekly Payment Results is wrong expected [$ 726.35123] but found [$ 726.35]",
+    "trace" : "java.lang.AssertionError: Weekly Payment Results is wrong expected [$ 726.35123] but found [$ 726.35]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat allTests.MortgagePaymentCalculation.verifyMortgageWeeklyPaymentsCalculation(MortgagePaymentCalculation.java:80)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n",
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1498079901216,
+      "stop" : 1498079908629,
+      "duration" : 7413
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "Weekly Payment Results is wrong expected [$ 726.35123] but found [$ 726.35]",
+      "trace" : "java.lang.AssertionError: Weekly Payment Results is wrong expected [$ 726.35123] but found [$ 726.35]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat allTests.MortgagePaymentCalculation.verifyMortgageWeeklyPaymentsCalculation(MortgagePaymentCalculation.java:80)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:661)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Open \"https://ia.ca\" page",
+      "time" : {
+        "start" : 1498079928068,
+        "stop" : 1498079932267,
+        "duration" : 4199
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WIN8_1 (57a79e2015f510fab253282d615ee8a2)"
+      }, {
+        "name" : "url",
+        "value" : "https://ia.ca"
+      } ]
+    }, {
+      "name" : "Click Loans Menu",
+      "time" : {
+        "start" : 1498079932268,
+        "stop" : 1498079932678,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Click Mortgages Link",
+      "time" : {
+        "start" : 1498079932679,
+        "stop" : 1498079934983,
+        "duration" : 2304
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Click Calculate Your Payments button",
+      "time" : {
+        "start" : 1498079934984,
+        "stop" : 1498079937953,
+        "duration" : 2969
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Change the Purchase Price using + button of the slider",
+      "time" : {
+        "start" : 1498079937955,
+        "stop" : 1498079938770,
+        "duration" : 815
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clickQuantity",
+        "value" : "2"
+      } ]
+    }, {
+      "name" : "Change the Down Payment using the + button of the slider",
+      "time" : {
+        "start" : 1498079938771,
+        "stop" : 1498079939294,
+        "duration" : 523
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clickQuantity",
+        "value" : "1"
+      } ]
+    }, {
+      "name" : "Select \"15 years\" years for Amortization",
+      "time" : {
+        "start" : 1498079939295,
+        "stop" : 1498079940423,
+        "duration" : 1128
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "15 years"
+      } ]
+    }, {
+      "name" : "Select \"weekly\" for Payment Frequency",
+      "time" : {
+        "start" : 1498079940424,
+        "stop" : 1498079941397,
+        "duration" : 973
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "weekly"
+      } ]
+    }, {
+      "name" : "Change the Interest Rate to \"5\"",
+      "time" : {
+        "start" : 1498079941397,
+        "stop" : 1498079942112,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "rate",
+        "value" : "5"
+      } ]
+    }, {
+      "name" : "Click Calculate button",
+      "time" : {
+        "start" : 1498079942113,
+        "stop" : 1498079942537,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1498079943219,
+      "stop" : 1498079945547,
+      "duration" : 2328
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "allTests.MortgagePaymentCalculation"
+  }, {
+    "name" : "testClass",
+    "value" : "allTests.MortgagePaymentCalculation"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyMortgageWeeklyPaymentsCalculation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mortgage Payment Calculation TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of Mortgage Payment Calculation [Chrome Test]"
+  }, {
+    "name" : "subSuite",
+    "value" : "allTests.MortgagePaymentCalculation"
+  }, {
+    "name" : "host",
+    "value" : "OKHYTRUK-N"
+  }, {
+    "name" : "thread",
+    "value" : "5960@OKHYTRUK-N.TestNG-test=Verification of Mortgage Payment Calculation [Chrome Test]-2(18)"
+  }, {
+    "name" : "feature",
+    "value" : "Mortgage Payment Calculator"
+  }, {
+    "name" : "story",
+    "value" : "Mortgage Payment Calculation using Purchase price"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9561df40931a3b9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1498079707503,
+        "stop" : 1498079723948,
+        "duration" : 16445
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects"
+    } ]
+  }
+}

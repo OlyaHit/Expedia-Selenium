@@ -1,0 +1,173 @@
+{
+  "uid" : "a37e5c7c4742c2c6",
+  "name" : "Verification of Purchase Price Slider work",
+  "fullName" : "allTests.MortgagePaymentCalculation.verifyPurchasePriceSliderWork",
+  "historyId" : "3e7048de0eb1ac55c333569595f898f3",
+  "time" : {
+    "start" : 1498079683276,
+    "stop" : 1498079706300,
+    "duration" : 23024
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1498079676295,
+      "stop" : 1498079682936,
+      "duration" : 6641
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Open \"https://ia.ca\" page",
+      "time" : {
+        "start" : 1498079683394,
+        "stop" : 1498079694381,
+        "duration" : 10987
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WIN8_1 (dc0f0991931b2696b01712dbe0c34036)"
+      }, {
+        "name" : "url",
+        "value" : "https://ia.ca"
+      } ]
+    }, {
+      "name" : "Click Loans Menu",
+      "time" : {
+        "start" : 1498079694383,
+        "stop" : 1498079694979,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Click Mortgages Link",
+      "time" : {
+        "start" : 1498079694980,
+        "stop" : 1498079698971,
+        "duration" : 3991
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Click Calculate Your Payments button",
+      "time" : {
+        "start" : 1498079698972,
+        "stop" : 1498079704947,
+        "duration" : 5975
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Move Purchase Price Slider To Right",
+      "time" : {
+        "start" : 1498079704952,
+        "stop" : 1498079705898,
+        "duration" : 946
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WIN8_1 (dc0f0991931b2696b01712dbe0c34036)"
+      }, {
+        "name" : "xOffset",
+        "value" : "30"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1498079724035,
+      "stop" : 1498079726914,
+      "duration" : 2879
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "allTests.MortgagePaymentCalculation"
+  }, {
+    "name" : "testClass",
+    "value" : "allTests.MortgagePaymentCalculation"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPurchasePriceSliderWork"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mortgage Payment Calculation TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of Mortgage Payment Calculation [Chrome Test]"
+  }, {
+    "name" : "subSuite",
+    "value" : "allTests.MortgagePaymentCalculation"
+  }, {
+    "name" : "host",
+    "value" : "OKHYTRUK-N"
+  }, {
+    "name" : "thread",
+    "value" : "11008@OKHYTRUK-N.TestNG-test=Verification of Mortgage Payment Calculation [Chrome Test]-1(13)"
+  }, {
+    "name" : "feature",
+    "value" : "Mortgage Payment Calculator"
+  }, {
+    "name" : "story",
+    "value" : "Mortgage Payment Calculation using Purchase price"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

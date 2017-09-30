@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 15077,
+    "maxDuration" : 18576,
+    "sumDuration" : 33653,
+    "start" : 1498079908968,
+    "stop" : 1498079943139,
+    "duration" : 34171
+  },
+  "children" : [ {
+    "uid" : "b65a53aee3e0cce3",
+    "name" : "Mortgage Payment Calculator",
+    "time" : {
+      "minDuration" : 15077,
+      "maxDuration" : 18576,
+      "sumDuration" : 33653,
+      "start" : 1498079908968,
+      "stop" : 1498079943139,
+      "duration" : 34171
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "dd20ba127396b473",
+      "name" : "Mortgage Payment Calculation using Purchase price",
+      "time" : {
+        "minDuration" : 15077,
+        "maxDuration" : 18576,
+        "sumDuration" : 33653,
+        "start" : 1498079908968,
+        "stop" : 1498079943139,
+        "duration" : 34171
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "4eeeba4d19950beb",
+        "name" : "Verification of Mortgage Weekly payments calculation",
+        "time" : {
+          "start" : 1498079928062,
+          "stop" : 1498079943139,
+          "duration" : 15077
+        },
+        "status" : "failed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3ba783102330bfc2",
+        "name" : "Verification of Purchase Price Slider work",
+        "time" : {
+          "start" : 1498079908968,
+          "stop" : 1498079927544,
+          "duration" : 18576
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

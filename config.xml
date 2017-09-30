@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mortgage Payment Calculation TestSuite" parallel="methods" thread-count="2">
+<test name="Verification of Mortgage Payment Calculation [Chrome Test]">
+<parameter name="browser" value="chrome"></parameter>
+	<classes>
+		<class name="allTests.MortgagePaymentCalculation"></class>
+	</classes>
+</test>
+</suite>

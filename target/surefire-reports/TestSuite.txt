@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.405 sec <<< FAILURE! - in TestSuite
+verifyMortgageWeeklyPaymentsCalculation(allTests.MortgagePaymentCalculation)  Time elapsed: 15.156 sec  <<< FAILURE!
+java.lang.AssertionError: Weekly Payment Results is wrong expected [$ 726.35123] but found [$ 726.35]
+	at allTests.MortgagePaymentCalculation.verifyMortgageWeeklyPaymentsCalculation(MortgagePaymentCalculation.java:80)
+

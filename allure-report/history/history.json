@@ -1,0 +1,41 @@
+{
+  "ed61521d0d3518fbce57381c4e8140f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4eeeba4d19950beb",
+      "status" : "failed",
+      "statusDetails" : "Weekly Payment Results is wrong expected [$ 726.35123] but found [$ 726.35]",
+      "time" : {
+        "start" : 1498079928062,
+        "stop" : 1498079943139,
+        "duration" : 15077
+      }
+    } ]
+  },
+  "3e7048de0eb1ac55c333569595f898f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ba783102330bfc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1498079908968,
+        "stop" : 1498079927544,
+        "duration" : 18576
+      }
+    } ]
+  }
+}

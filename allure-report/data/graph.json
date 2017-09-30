@@ -1,0 +1,21 @@
+[ {
+  "uid" : "4eeeba4d19950beb",
+  "name" : "Verification of Mortgage Weekly payments calculation",
+  "time" : {
+    "start" : 1498079928062,
+    "stop" : 1498079943139,
+    "duration" : 15077
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ba783102330bfc2",
+  "name" : "Verification of Purchase Price Slider work",
+  "time" : {
+    "start" : 1498079908968,
+    "stop" : 1498079927544,
+    "duration" : 18576
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
